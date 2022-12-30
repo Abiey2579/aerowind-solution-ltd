@@ -1,10 +1,14 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/home/home";
 
 const Aerowind = () => {
   return (
-    <div>
-      <h1 className="bg-red-500">kkk</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
