@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import TopNavigation from "./TopNavigation";
 import Header from "./Header";
 import Services from "./Services";
+import ShopOnline from "./ShopOnline";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <TopNavigation />
       <Header />
       <Services />
+      <ShopOnline />
     </React.Fragment>
   );
 };
