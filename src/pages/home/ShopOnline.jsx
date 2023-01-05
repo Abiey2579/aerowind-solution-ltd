@@ -17,7 +17,7 @@ const settings = {
 };
 const ShopOnline = () => {
   return (
-    <div className="py-20 px-20 bg-indigo-600 mb-10">
+    <div className="py-20 px-20 bg-indigo-600 mb-5">
       <div className="mb-10">
         <h2 className="text-white text-center font-bold mb-5 tracking-tight sm:text-4xl">
           Shop Online

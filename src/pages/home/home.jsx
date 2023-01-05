@@ -4,6 +4,7 @@ import TopNavigation from "./TopNavigation";
 import Header from "./Header";
 import Services from "./Services";
 import ShopOnline from "./ShopOnline";
+import ContactUs from "./ContactUs";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Header />
       <Services />
       <ShopOnline />
+      <ContactUs />
     </React.Fragment>
   );
 };
