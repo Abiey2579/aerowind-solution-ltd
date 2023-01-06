@@ -5,6 +5,7 @@ import Header from "./Header";
 import Services from "./Services";
 import ShopOnline from "./ShopOnline";
 import ContactUs from "./ContactUs";
+import OurStory from "./OurStory";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Header />
       <Services />
       <ShopOnline />
+      <OurStory />
       <ContactUs />
     </React.Fragment>
   );
