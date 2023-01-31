@@ -12,7 +12,7 @@ const ContactUs = () => {
       <form
         action=""
         method="get"
-        className="grid justify-center lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-5 lg:px-40 px-6"
+        className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-5 lg:px-40 px-6"
       >
         <input
           type="text"
@@ -61,9 +61,9 @@ const ContactUs = () => {
           cols="30"
           rows="10"
           placeholder="Any additional information or questions about requesting a quote from us?"
-          className="p-3 px-5 bg-gray-200 rounded-3xl outline-0 col-span-3 placeholder:text-gray-800 font-semibold"
+          className="p-3 px-5 bg-gray-200 rounded-3xl outline-0 xl:col-span-3 lg:col-span-2 col-span-1 placeholder:text-gray-800 font-semibold"
         ></textarea>
-        <button className="p-3 px-5 bg-indigo-600 rounded-3xl outline-0 text-white font-semibold col-span-3">
+        <button className="p-3 px-5 bg-indigo-600 rounded-3xl outline-0 text-white font-semibold  xl:col-span-3 lg:col-span-2 col-span-1">
           Request
         </button>
       </form>
