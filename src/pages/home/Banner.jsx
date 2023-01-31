@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="bg-indigo-600 relative z-10 w-full" id="top-banner">
       {banner && (
-        <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+        <div className="mx-auto 2xl:px-36 xl:px-24 lg:px-[75px] md:px-[50px] sm:px-8 py-3 px-3">
           <div className="flex flex-wrap items-center justify-between">
             <div className="flex w-0 flex-1 items-center">
               <span className="flex rounded-lg bg-indigo-800 p-2">
@@ -28,7 +28,7 @@ const Banner = () => {
               <p className="ml-3 truncate font-medium text-white">
                 <span className="md:hidden">We announced a new product!</span>
                 <span className="hidden md:inline">
-                  Big news! We're excited to announce a brand new product.
+                  Big news! We're excited to announce our brand new products.
                 </span>
               </p>
             </div>

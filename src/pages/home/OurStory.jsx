@@ -3,15 +3,13 @@ import OURSTORY from "./../../Assets/Images/our-story.jpg";
 
 const OurStory = () => {
   return (
-    <div className="bg-yellow-50 py-16 px-5">
+    <div className="bg-indigo-50 py-16 px-5">
       <h1 className="font-bold text-5xl text-center mb-5 text-indigo-900">
         Our Story
       </h1>
-      <p className="text-center text-gray-800  mb-10  max-w-2xl m-auto font-semibold">
+      <p className="text-center text-gray-800  mb-10  max-w-2xl m-auto">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quibusdam
-        ratione? Obcaecati, quia officia! Laborum iusto, tempora adipisci
-        tempore rerum numquam. Ad neque numquam nobis officiis nostrum aliquam
-        ipsum quis.
+        ratione? Obcaecati, quia officia! Laborum iusto.
       </p>
       <div className="flex justify-around items-center px-20">
         <div className="w-[50%]">
@@ -19,7 +17,7 @@ const OurStory = () => {
             <h2 className="font-bold text-2xl mb-5 w-max text-indigo-900">
               The journey to relaxation
             </h2>
-            <p className="text-gray-800 mb-10 font-medium">
+            <p className="text-gray-800 mb-10">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
               iusto voluptate labore? Molestias a nihil cum voluptate laboriosam
               voluptatum non nisi quisquam, nulla aut ad necessitatibus ipsa
