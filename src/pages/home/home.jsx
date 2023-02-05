@@ -5,7 +5,7 @@ import Footer from "./../../Assets/Components/Footer";
 import Header from "./Header";
 import Services from "./Services";
 import ShopOnline from "./ShopOnline";
-import ContactUs from "./ContactUs";
+import Quote from "./Quote";
 import OurStory from "./OurStory";
 
 const HomePage = () => {
@@ -17,7 +17,7 @@ const HomePage = () => {
       <Services />
       <ShopOnline />
       <OurStory />
-      <ContactUs />
+      <Quote />
       <Footer />
     </React.Fragment>
   );

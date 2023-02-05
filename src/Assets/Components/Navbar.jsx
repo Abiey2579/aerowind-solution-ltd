@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "NDT Services", href: "#" },
   { name: "Aero Agro Services", href: "#" },
-  { name: "Shop Online", href: "#" },
+  { name: "Shop Online", href: "/shop" },
   { name: "Contant Us", href: "/contact-us" },
 ];
 

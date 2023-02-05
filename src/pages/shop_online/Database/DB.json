@@ -1,0 +1,30 @@
+[
+  {
+    "productName": "Pizza Hunt",
+    "price": "$9.8",
+    "gatewayURI": "https://google.com",
+    "Make": "fly Emirate",
+    "imageURI": "https://google.com"
+  },
+  {
+    "productName": "Jumia Enterprise",
+    "price": "$14",
+    "gatewayURI": "https://google.com",
+    "Make": "fly Emirate",
+    "imageURI": "https://google.com"
+  },
+  {
+    "productName": "Zaimah Fresh",
+    "price": "$11.33",
+    "gatewayURI": "https://google.com",
+    "Make": "fly Emirate",
+    "imageURI": "https://google.com"
+  },
+  {
+    "productName": "Zenith Bank",
+    "price": "$7.2",
+    "gatewayURI": "https://google.com",
+    "Make": "fly Emirate",
+    "imageURI": "https://google.com"
+  }
+]

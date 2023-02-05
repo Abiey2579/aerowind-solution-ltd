@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 
-const ContactUs = () => {
+const Quote = () => {
   const [PhoneInputValule, setPhoneInputValule] = useState();
   return (
     <div className="py-20 px-20 relative mb-5 ">
@@ -71,4 +71,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Quote;
